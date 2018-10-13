@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/my_addons":{"create":true,"guestpath":"/home/vagrant/my_addons","hostpath":"/Users/jjacquesf/Projects/odoo-vagrant/src/my_addons","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/jjacquesf/Projects/odoo-vagrant","disabled":false,"__vagrantfile":true}}}

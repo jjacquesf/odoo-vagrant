@@ -1,6 +1,6 @@
 # odoo-vagrant
 
-Vagrant Setup for Odoo 10 on Ubuntu 16.04
+Vagrant Setup for Odoo on Ubuntu 16.04
 
 Dependencies
 ------------
@@ -19,6 +19,10 @@ Setup
 
 ```
 git clone https://github.com/danishzahur/odoo-vagrant.git
+```
+* Set Odoo Version to intall in provision/install.sh
+```bash
+ODOO_VERSION=12.0
 ```
 
 * Start virtual machine

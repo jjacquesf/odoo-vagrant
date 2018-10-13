@@ -1,4 +1,9 @@
 #!/bin/bash
+#--------------------------------------------------
+# Variables
+#--------------------------------------------------
+ODOO_VERSION=12.0
+
 function print_out {
   echo "--------------------------------------------------"
   echo ""
@@ -8,7 +13,7 @@ function print_out {
 }
 
 wget -O - https://nightly.odoo.com/odoo.key | apt-key add -
-echo "deb http://nightly.odoo.com/10.0/nightly/deb/ ./" >> /etc/apt/sources.list.d/odoo.list
+echo "deb http://nightly.odoo.com/${ODOO_VERSION}/nightly/deb/ ./" >> /etc/apt/sources.list.d/odoo.list
 
 print_out "Updating packages..."
 apt-get update
